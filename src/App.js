@@ -1,9 +1,10 @@
-import './App.css';
+import React from 'react';
+import AuthField from './components/authField'
 
 function App() {
   return (
-    <div className="App">
-      <p className="text-xl text-red-500">Hello</p>
+    <div>
+      <AuthField />
     </div>
   );
 }
