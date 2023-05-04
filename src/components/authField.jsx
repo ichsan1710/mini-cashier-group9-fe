@@ -19,7 +19,7 @@ function AuthField() {
           <input className="input-text" type="password" name="password" id="password" />
         </div>
         <button className="submit-btn">Sign In</button>
-        <div className="register-text">Register instead</div>
+        <div className="register-text">Register</div>
       </div>
     </div>
   );
