@@ -26,7 +26,7 @@ function Navbar() {
             }}
             className="hover:font-semibold"
             >
-                Admin
+                Transaction
             </button>
         <button
             onClick={() => {

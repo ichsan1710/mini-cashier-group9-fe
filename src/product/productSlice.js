@@ -31,4 +31,19 @@ export function fetchProducts(){
     }
 }
 
+export function editProducts(form){
+    return async (dispatch) => {
+        await axios.patch(`http://localhost:8001/edit-products/${form.id_product}`, form)
+        dispatch(fetchProducts())
+
+    }
+}
+export function createProducts(form){
+    return async (dispatch) => {
+        await axios.post(`http://localhost:8001/`, form)
+        dispatch(fetchProducts())
+
+    }
+}
+
 export default productSlice.reducer

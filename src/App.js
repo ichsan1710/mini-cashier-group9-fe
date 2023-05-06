@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Admin from './pages/Admin'
 import Products from './pages/Products';
+import Modal from './components/Modal';
 
 function App() {
   return (

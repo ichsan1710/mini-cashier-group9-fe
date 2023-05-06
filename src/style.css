@@ -94,3 +94,15 @@
 .pagination button.active {
   background-color: #ccc;
 }
+
+.card-add-btn {
+  justify-content: flex-end;
+    display: flex;
+    margin: 20px;
+}
+
+.edit-btn {
+  display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
