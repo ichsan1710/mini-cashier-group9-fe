@@ -1,10 +1,15 @@
 import React from 'react';
-import AuthField from './components/authField'
+import LoginPage from './pages/logInPage'
+import TransPage from './pages/transPage'
+import {Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
     <div>
-      <AuthField />
+      <Routes>
+      <Route path = '/' element={<LoginPage/>} />
+      <Route path = '/trans' element={<TransPage/>} />
+      </Routes>
     </div>
   );
 }

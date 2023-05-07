@@ -53,3 +53,138 @@
   margin-top: 20px;
   font-size: 14px;
 }
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.filter-header {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.filter-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.date-filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.date-filter label {
+  font-weight: bold;
+}
+
+.date-filter input {
+  padding: 0.5rem;
+}
+
+.date-filter button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background-color: #4b5563;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.date-filter button:hover {
+  background-color: #2d3748;
+}
+
+.transaction,
+.gross,
+.top-selling-product {
+  width: 250px;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.top-selling-product {
+  flex: 1;
+}
+
+.top-selling-product ol {
+  padding-left: 2rem;
+  margin-top: 1rem;
+}
+
+.top-selling-product li {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.top-selling-product li:first-child {
+  color: #4f46e5;
+}
+
+.top-selling-product li:not(:first-child) {
+  color: #1f2937;
+}
+
+.top-selling-product p {
+  margin-top: 1rem;
+}
+
+.top-selling-product h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.top-5-selling-product {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.top-5-selling-product select {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin-right: 1rem;
+}
+
+.top-5-selling-product button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background-color: #4b5563;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.top-5-selling-product button:hover {
+  background-color: #2d3748;
+}
+
+.top-5-selling-product table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.top-5-selling-product th,
+.top-5-selling-product td {
+  border: 1px solid #d1d5db;
+  padding: 0.5rem;
+}
+
+.top-5-selling-product th {
+  background-color: #e5e7eb;
+  font-weight: bold;
+  text-align: left;
+}
+
+.top-5-selling-product td {
+  text-align: center;
+}

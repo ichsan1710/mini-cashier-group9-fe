@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style.css';
 
-function AuthField() {
+function LoginPage() {
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100">
       <div className="auth-container">
@@ -25,4 +25,4 @@ function AuthField() {
   );
 }
 
-export default AuthField;
+export default LoginPage;
